@@ -1,11 +1,11 @@
 ###################################################################
 #                        Import Module
-import json , sys , hashlib , os , time , marshal
-###################################################################
+import json , sys , hashlib , os , time , marshal  
+###################################################################  
 '''
      Jangan Direcode ya bosku , tinggal make apa susahnya sih
 '''
-###################################################################
+###################################################################   
 #                             COLOR
 if sys.platform in ["linux","linux2"]:
 	W = "\033[0m"
@@ -72,16 +72,14 @@ def show_program():
 	print '''
                     %sINFORMATION%s
  ------------------------------------------------------
-
-    Author     Debby Anggraini 'CiKu370'
-    Name       OSIF 'Open Source Information Facebook'
+    Author     Debby Anggraini 'pissupusa100'
+    Name       PISSU 'Open Source Information Facebook'
     CodeName   D3b2y
     version    full version
     Date       16/05/2018 09:35:12
     Team       Blackhole Security
-    Email      xnver404@gmail.com
-    Telegram   @CiKu370
-
+    Email      helohany2@gmail.com
+    Telegram   @pissupusa100
 * if you find any errors or problems , please contact
   author
 '''%(G,W)
@@ -90,22 +88,17 @@ def info_ga():
 	print '''
      %sCOMMAND                      DESCRIPTION%s
   -------------       -------------------------------------
-
    get_data           fetching all friends data
    get_info           show information about your friend
-
    dump_id            fetching all id from friend list
    dump_phone         fetching all phone number from friend list
    dump_mail          fetching all emails from friend list
    dump_<id>_id       fetching all id from your friends <spesific>
 		      ex: dump_username_id
-
    token              Generate access token
    cat_token          show your access token
    rm_token           remove access token
-
    bot                open bot menu
-
    clear              clear terminal
    help               show help
    about              Show information about this program
@@ -115,7 +108,6 @@ def menu_bot():
 	print '''
    %sNumber                  INFO%s
  ---------   ------------------------------------
-
    [ 01 ]      auto reactions
    [ 02 ]      auto comment
    [ 03 ]      auto poke
@@ -124,21 +116,18 @@ def menu_bot():
    [ 06 ]      delete all friends
    [ 07 ]      stop following all friends
    [ 08 ]      delete all photo albums
-
    [ 00 ]      back to main menu
 '''%(G,W)
 def menu_reaction():
 	print '''
    %sNumber                  INFO%s
  ----------   ------------------------------------
-
    [ 01 ]      like
    [ 02 ]      reaction 'LOVE'
    [ 03 ]      reaction 'WOW'
    [ 04 ]      reaction 'HAHA'
    [ 05 ]      reaction 'SAD'
    [ 06 ]      reaction 'ANGRY'
-
    [ 00 ]      back to menu bot
 '''%(G,W)
 ####################################################################
@@ -1252,4 +1241,3 @@ if __name__ == '__main__':
 
 #
 ##########################################################################
-
